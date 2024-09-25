@@ -29,10 +29,12 @@
 
 - [Kalibrierkonzepte](./03_Kalibrierkonzepte/README.md)
   - [Parameter Flash](./03_Kalibrierkonzepte/01_parameter-flash.md)
-  - [Parameter RAM](./03_Kalibrierkonzepte/02_paremeter-ram.md)
+  - [Parameter RAM](./03_Kalibrierkonzepte/02_parameter-ram.md)
   - [Flash Overlay](./03_Kalibrierkonzepte/03_flash-overlay.md)
   - [Dynamic Flash Overlay](./03_Kalibrierkonzepte/04_dynamic-flash-overlay.md)
 
 ## Tooling
 
 - [Tooling](./04_Tooling/README.md)
+  - [Messen & Auswerten](./04_Tooling/01_Messen_Auswerten.md)
+  - [Kalibrieren & Verwalten](./04_Tooling/02_Kalibrieren_Verwalten.md)

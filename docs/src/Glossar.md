@@ -2,36 +2,77 @@
 
 ## A
 
+**ASAM (Association for Standardisation of Automation and Measuring Systems):**
+Organisation, die Standards für Automatisierungs- und Messsysteme in der Automobilindustrie entwickelt.
+
+**ASAP2-Datei (.a2l):**
+Datei, die die Beschreibung der ECU-Parameter, Messpunkte und Kalibrierungsdaten enthält.
+
 ## B
+
+**Bandbreite:**
+Die maximale Datenmenge, die über ein Netzwerk in einem bestimmten Zeitraum übertragen werden kann.
+
+**Buslast:**
+Die Auslastung des Kommunikationsbusses, bestimmt durch die Anzahl und Frequenz der übertragenen Nachrichten.
 
 ## C
 
+**CAN (Controller Area Network):**
+Ein robustes Fahrzeugnetzwerkprotokoll zur Kommunikation zwischen Mikrocontrollern und Geräten ohne einen Host-Computer.
+
+**CANape:**
+Ein leistungsfähiges Werkzeug von Vector Informatik zur Messung, Kalibrierung und Analyse von Fahrzeugnetzwerken, das die Kommunikation mit ECUs über Protokolle wie XCP ermöglicht.
+
 ## D
+
+**DAQ (Data Acquisition):**
+Prozess der Erfassung und Verarbeitung von Daten aus verschiedenen Sensoren und Quellen.
+
+**DAQ-Modus (Data Acquisition Mode):**
+Ein synchroner Messmodus, der die gleichzeitige Erfassung mehrerer Signale ermöglicht.
 
 ## E
 
-## I
+**ECU (Electronic Control Unit):**
+Elektronische Steuergeräte, die verschiedene Fahrzeugfunktionen steuern und überwachen.
+
+## L
+
+**Latenz:**
+Die Verzögerung zwischen der Übertragung eines Datenpakets und dessen Empfang.
 
 ## M
 
-### MCAL
+**Master:**
+In der XCP-Kommunikation das Gerät oder die Software (z. B. CANape), die die Messung und Kalibrierung steuert.
 
-Die Microcontroller Abstraction Layer (MCAL) in AUTOSAR stellt eine essenzielle Softwarekomponente dar, die die spezifischen Hardwarefunktionen des Mikrocontrollers abstrahiert, standardisierte Treiberschnittstellen definiert, um eine einheitliche Schnittstelle für Softwarekomponenten unabhängig von der zugrunde liegenden Hardware zu bieten, und ermöglicht die Konfiguration sowie Initialisierung der Hardwareperipheriegeräte während des Systemstarts, wodurch sie die Portabilität, Wiederverwendbarkeit und Entwicklung skalierbarer und modularer Fahrzeugsteuerungssysteme erleichtert.
+**PID (Packet Identifier):**
+Das erste Byte einer XCP-Nachricht, das den spezifischen Befehl identifiziert.
 
-## R
+**Polling-Modus:**
+Ein Messmodus, bei dem Signale sequenziell abgefragt werden.
 
-### RTE
+**POS_ACK:**
+Positive Acknowledgement; eine Bestätigung vom Slave über den erfolgreichen Empfang und die Ausführung eines Befehls.
 
-Die RTE (Run-Time Environment) bei AUTOSAR fungiert als entscheidende Ausführungs- und Kommunikationsschicht, welche die Interaktion verschiedener Softwarekomponenten in einem verteilten Steuerungssystem innerhalb eines Fahrzeugs ermöglicht, indem sie Datenaustausch, Laufzeitumgebung, Schnittstellenmanagement und Fehlerbehandlung koordiniert und dabei eine robuste und flexible Ausführungsumgebung bereitstellt.
+**Rechenleistung:**
+Die Fähigkeit eines Systems, Berechnungen und Datenverarbeitungen schnell und effizient durchzuführen.
 
-## S
+**SHORT_UPLOAD:**
+Ein XCP-Befehl zur schnellen Abfrage kleiner Datenmengen aus dem Slavespeicher.
 
-### SWC
+**Slave:**
+In der XCP-Kommunikation das Steuergerät, das auf Befehle des Masters reagiert.
 
-Eine Softwarekomponente (SWC) in AUTOSAR repräsentiert eine modulare und wiederverwendbare Einheit von Software, die spezifische Funktionen innerhalb eines Fahrzeugsteuerungssystems implementiert und über definierte Schnittstellen mit anderen Komponenten interagiert, wodurch eine flexible und hardwareunabhängige Systemarchitektur ermöglicht wird.
+**Transportebene:**
+Die Schicht im Kommunikationsprotokoll, die für die Übertragung von Daten zwischen Geräten verantwortlich ist.
 
-## V
+**UPLOAD:**
+Ein XCP-Befehl zur Abfrage größerer Datenmengen oder mehrerer Signale aus dem Slavespeicher.
 
-### VFB
+**XCP (Universal Measurement and Calibration Protocol):**
+Protokoll zur Echtzeit-Messung und Kalibrierung von Steuergeräten (ECUs) in Fahrzeugen.
 
-Der Virtual Function Bus (VFB) in AUTOSAR ist ein virtuelles Kommunikationskonzept, das die Interaktion und den Datenaustausch zwischen den verteilten Softwarekomponenten in einem Fahrzeug ermöglicht, indem es eine abstrakte Kommunikationsschicht über den physikalischen Bussystemen bereitstellt und eine lose Kopplung zwischen den Komponenten unterstützt, was Flexibilität und Wiederverwendbarkeit über verschiedene Hardwareplattformen hinweg ermöglicht.
+**XCP-Befehl:**
+Ein spezifischer Anweisungscode innerhalb des XCP-Protokolls, der eine bestimmte Aktion auf dem Slave auslöst.
