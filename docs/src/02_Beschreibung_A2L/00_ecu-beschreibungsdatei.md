@@ -1,4 +1,4 @@
-# Steuergeräte-Beschreibungsdatei A2L: Ein Umfassender und Detaillierter Leitfaden für XCP-Experten
+# Steuergeräte-Beschreibungsdatei A2L
 
 Die A2L-Datei (ASAM MCD-2 MC) ist ein zentrales Element in der modernen Steuergeräteentwicklung und -kalibrierung, insbesondere im Automobilbereich. Sie fungiert als Schnittstelle zwischen dem Steuergerät (ECU) und den Mess- und Kalibrierwerkzeugen, ermöglicht die präzise Zuordnung und Interpretation von Parametern und Signalen und unterstützt effiziente Entwicklungs- und Testprozesse. Dieser umfassende Leitfaden bietet eine tiefgehende Analyse der A2L-Datei, ihrer Struktur, Funktionalitäten und ihrer Integration in das XCP-Protokoll (Universal Measurement and Calibration Protocol).
 
